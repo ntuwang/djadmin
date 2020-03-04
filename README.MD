@@ -4,6 +4,11 @@
 
 VERSION = "0.1.1"
 
+## demo
+* http://121.199.79.74:8001
+* admin   
+* admin@123
+
 ## 获取安装
 
 执行以下命令，就能够在你的`GOPATH/src` 目录下发现beego admin
