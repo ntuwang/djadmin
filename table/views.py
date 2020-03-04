@@ -43,7 +43,7 @@ def bootstrap_tables(request):
                 "city": random.choice(['SH', 'NJ', 'WH']),
                 "subject_info": [{'subject': '语文', 'score': 100}, {'subject': '数学', 'score': 80},
                                  {'subject': '英语', 'score': 90}],
-                "total_score": 0,
+                "total_score": 270,
             } for x in range(501)]
         else:
             rows = [{
@@ -57,7 +57,7 @@ def bootstrap_tables(request):
                 "city": random.choice(['SH', 'NJ', 'WH']),
                 "subject_info": [{'subject': '语文', 'score': 100}, {'subject': '数学', 'score': 80},
                                  {'subject': '英语', 'score': 90}],
-                "total_score": 0,
+                "total_score": 270,
             } for x in range(1501)]
         res = {'rows': rows[offset:limit], 'total': len(rows)}
         return JsonResponse(res, safe=False)
