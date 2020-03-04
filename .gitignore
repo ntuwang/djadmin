@@ -1,0 +1,19 @@
+nbproject
+node_modules
+.sass-cache
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+# dist
+# build
+logs/*.log
+__pycache__
+.idea/
+*.db
+*.sqlite3
+*/migrations/*.py
+!__init__.py
+gentelella/
+.DS_Store
