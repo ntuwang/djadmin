@@ -9,6 +9,12 @@ VERSION = "0.1.1"
 * admin   
 * admin@123
 
+![avatar](static/asset/demo/bs.png)
+
+![avatar](static/asset/demo/bs2.png)
+
+![avatar](static/asset/demo/bs3.png)
+
 ## 获取安装
 
 执行以下命令，就能够在你的`GOPATH/src` 目录下发现beego admin
